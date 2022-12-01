@@ -1,27 +1,78 @@
 body{
     font-family: 'Poppins';
+    background-color: rgba(236,201,195,0.75);
 }
 .ab1 h4{
     color: #fb5849;
 }
 .ab{
-display: flex;
+    display: flex;
+    margin: 50px 150px;
+    opacity: 0;
+    transform: translateY(100px);
 }
-
-
+.ab2 img{
+    margin-right:10px;
+    transition: 1s;
+}
+.ab2 img:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
 .ww{
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
     background-color: #fb5849;
     margin-top: 100px;
-    bottom: 0px;
 }
 
 .qw{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
+    align-items: center;
 }
+.middle{
+    display: flex;
+    margin-bottom: 50px;
+}
+.mid1{
+    width: 400px;
+    margin: 100px;
+    height: 350px;
+    /*background-color: red;*/
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+}
+.mid_color{
+    color: red;
+}
+.middle{
+    width: 100%;
+    height: 400px;
+    background-image: url('reservation-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/*.abc h1{*/
+/*    color: #f3f3f3;*/
+/*    text-align: center;*/
+/*    font-size: 48px;*/
+/*    padding: 0px 0px 20px;*/
+/*}*/
+/*.abc p{*/
+/*    color: #f3f3f3;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    padding: 0px 0px 10px;*/
+/*}*/
 
 .social{
     display:flex;
+    /*align-self: center;*/
     /*justify-content: flex-end;*/
     /*float: left;*/
 }
@@ -31,8 +82,8 @@ display: flex;
     display:flex;
     align-items:center;
     justify-content:center;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     background-color: #f2f2f2;
     border-radius: 50%;
@@ -51,8 +102,8 @@ display: flex;
 
 .social__icon:after{
     content: "";
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     position:absolute;
     transform: translate(0, 70px);
     border-radius: 50%;
@@ -85,4 +136,125 @@ display: flex;
 
 .social__icon:hover:after{
     transform: translate(0);
+}
+
+
+/* ------------ BASE ------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------- SLIDER ------------ */
+.swiper{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-image: url('top-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.swiper h1{
+    font-size: 48px;
+    color: white;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active){
+    filter: blur(1px);
+}
+
+.card__image{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid #9176FF;
+
+    padding: 3px;
+    margin-bottom: 2em;
+}
+
+.card__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+}
+
+.card__name{
+    color: #9176FF;
+}
+
+.card__text{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+}
+
+.card__btn{
+    background-color: #9176FF;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.ab.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.mid1.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
 }
