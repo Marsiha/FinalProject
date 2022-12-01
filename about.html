@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="https://kit.fontawesome.com/ff1a448a1e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="about.css">
 </head>
@@ -23,10 +24,129 @@
             </div>
         </div>
         <div>
-            <img src="about-video-bg.jpg" alt="ab2" width="540" height="507">
+            <img src="about-video-bg.jpg" alt="ab2" width="500" height="470">
         </div>
     </div>
-<!--FOOTER-->
+    <div class="middle">
+        <div class="mid1">
+            <h2>ABOUT <span class="mid_color">DUJOUR</span></h2>
+            <p>Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you.</p>
+        </div>
+        <div class="mid1">
+            <h2>LATEST <span class="mid_color">AWARDS</span></h2>
+            <p>Here he comes Here comes Speed Racer. He's a demon on wheels. Believe it or not I'm walking on air. I never thought I could feel so free. Flying away on a wing and a prayer.</p>
+        </div>
+    </div>
+
+    <section class="swiper mySwiper" >
+        <h1>OUR ACCLAIMED CHEFS</h1>
+        <div class="swiper-wrapper">
+
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="chefs-01.jpg" alt="card image">
+                </div>
+
+                <div class="card__content">
+                    <span class="card__title">Web Designer</span>
+                    <span class="card__name">Vanessa Martinez</span>
+                    <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+                    <button class="card__btn">View More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="chefs-02.jpg" alt="card image">
+                </div>
+
+                <div class="card__content">
+                    <span class="card__title">Ui Designer</span>
+                    <span class="card__name">Sarah Bowen</span>
+                    <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+                    <button class="card__btn">View More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="chefs-03.jpg" alt="card image">
+                </div>
+
+                <div class="card__content">
+                    <span class="card__title">Web Developer</span>
+                    <span class="card__name">David Murphy</span>
+                    <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+                    <button class="card__btn">View More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="chefs-01.jpg" alt="card image">
+                </div>
+
+                <div class="card__content">
+                    <span class="card__title">Mobile Designer</span>
+                    <span class="card__name">Kelsey West</span>
+                    <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+                    <button class="card__btn">View More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script>
+        function onEntry(entry) {
+            entry.forEach(change => {
+                if (change.isIntersecting) {
+                    change.target.classList.add('element-show');
+                }
+            });
+        }
+
+        let options = {
+            threshold: [0.5] };
+        let observer = new IntersectionObserver(onEntry, options);
+        let elements = document.querySelectorAll('.ab');
+        let elements1 = document.querySelectorAll('.mid1');
+
+
+        for (let elm of elements) {
+            observer.observe(elm);
+        }
+        for (let elm of elements1) {
+            observer.observe(elm);
+        }
+    </script>
+
+
+
+
+    <!--FOOTER-->
     <div class = "ww">
         <div class="qw">
             <div class="social">
@@ -44,7 +164,7 @@
             </div>
         </div>
         <hr style="margin: 0px 40px">
-        <p style="font-size: 18px; color: white; margin-left: 40px">© 2022 All Rights Reserved By Free Html Templates <br>© Distributed By ThemeWagon</p>
+        <p style="font-size: 18px; color: white; margin-left: 40px; text-align: center">© 2022 All Rights Reserved By Free Html Templates <br>© Distributed By ThemeWagon</p>
     </div>
 </body>
 </html>
