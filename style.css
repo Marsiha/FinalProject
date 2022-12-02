@@ -78,7 +78,10 @@ header .content .content-left .content-left-inner h6{
     letter-spacing: 3px;
     margin-top: 5px;
 }
-header .content .content-left .content-left-inner a{
+header .content .content-left .content-left-inner .btn-res{
+    margin-top: 20px;
+}
+header .content .content-left .content-left-inner .btn-res a{
     text-decoration: none;
     color: rgb(218, 20, 20);
     border-radius: 5px;
@@ -87,8 +90,66 @@ header .content .content-left .content-left-inner a{
     margin-top: 12px;
     margin-left: 34px;
 }
+header .content .content-left .content-left-inner .btn-res a:hover{
+    background-color: rgb(232, 235, 239);
+    transition: 0.3s linear;
+}
 header .content .content-right{
+    background-image: url(pictures/slide-02.jpg);
     width: 65%;
     height: 700px;
     border: 1px solid;
+}
+header .content2{
+    margin: 100px 30px;
+    border: 1px solid;
+    height: auto;
+    width: 290px;
+}
+header .content2 h6{
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header .content2 h2{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #2a2a2a;
+}
+header .gallery{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+}
+header .gallery .card{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 250px;
+    min-height: 400px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+header .gallery .photo1{
+    background-image: url(pictures/menu-item-01.jpg);
+}
+header .gallery .photo2{
+    background-image: url(pictures/menu-item-02.jpg);
+}
+header .gallery .photo3{
+    background-image: url(pictures/menu-item-03.jpg);
+}
+header .gallery .photo4{
+    background-image: url(pictures/menu-item-04.jpg);
+}
+header .gallery .photo5{
+    background-image: url(pictures/menu-item-05.jpg);
 }
