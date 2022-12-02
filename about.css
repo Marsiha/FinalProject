@@ -142,7 +142,7 @@ body{
     align-items: center;
     height: 80vh;
     text-align: center;
-    background-image: url('top-left-bg.jpg');
+    background-image: url('bg_1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -182,7 +182,7 @@ body{
     width: 10em;
     height: 10em;
     border-radius: 50%;
-    border: 5px solid #9176FF;
+    border: 5px solid #fb5849;;
 
     padding: 3px;
     margin-bottom: 2em;
@@ -209,7 +209,7 @@ body{
 }
 
 .card__name{
-    color: #9176FF;
+    color: #fb5849;;
 }
 
 .card__text{
@@ -219,7 +219,7 @@ body{
 }
 
 .card__btn{
-    background-color: #9176FF;
+    background-color: #fb5849;;
     color: #fff;
     font-size: 1rem;
     text-transform: uppercase;
