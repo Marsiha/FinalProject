@@ -136,6 +136,7 @@ body{
 
 /* ----------- SLIDER ------------ */
 .swiper{
+    margin-top: 50px;
     width: 100%;
     display: block;
     justify-content: center;
@@ -149,6 +150,12 @@ body{
 }
 .swiper h1{
     font-size: 48px;
+    font-family: "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+.yryskeldi{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
     color: white;
 }
 
@@ -193,6 +200,14 @@ body{
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+.card__image img{
+    margin-right:10px;
+    transition: 1s;
+}
+.card__image img:hover{
+    transform:scale(1.1);
+    z-index: 2;
 }
 
 .card__content{
@@ -311,4 +326,7 @@ body{
 }
 .card:hover .content .from-left {
     left:0%}
-
+.youtube{
+    display: flex;
+    justify-content: space-around;
+}
