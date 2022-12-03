@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body{
     margin: 0;
     font-family:'Poppins', sans-serif;
@@ -50,16 +56,71 @@ header nav i{
 /*css adilet*/
 
 .reservation{
-    background: url("img/reservation-bg.jpg") ;
-    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 6% 8%;
+    background: url("img/reservation-bg.jpg") no-repeat ;
+    height: 85%;
     margin-top: 65px;
     text-align: center;
 }
-.table{
-    position: absolute;
-    right: 20%;
-    top: 50%;
-    background-color: white;
-    border-radius: 15px;
+div div{
     width: 35%;
+    background-color: green;
 }
+::placeholder {
+    color: black;
+    font-size: 14px;
+}
+.table{
+    padding: 45px 30px ;
+    background-color: white;
+    border-radius: 5px;
+    width: 43%;
+    height: auto;
+}
+div div h4 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+div div div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div div input[type='submit']{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: #fb5849;
+    border: 1px solid #fb5849;
+    padding: 12px;
+}
+.inp{
+    background-color: #8080800f;
+    padding: 10px 20px ;
+    width: 42%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    appearance: none;
+    border-radius: 5px;
+    outline: none;
+}
+/*div div select{*/
+/*    padding: 10px;*/
+/*    width: 42%;*/
+/*    margin: 5px 5px ;*/
+/*}*/
+div div textarea{
+    width: 88%;
+    height: 20%;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
