@@ -1,0 +1,15 @@
+@media screen and (max-width: 1150px)  {
+    header nav .head{
+        display: block;
+        border: 1px solid;
+    }
+    header nav h1{
+        border: 1px solid;
+    }
+    header nav ul{
+        border: 1px solid;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+}
