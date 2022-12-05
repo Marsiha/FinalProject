@@ -196,6 +196,11 @@ header .content .content-right{
     border: 1px solid;
     display: flex;
 }
+.middle .papa p{
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
 
 
 
