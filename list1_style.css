@@ -31,6 +31,13 @@ header nav{
     position: fixed;
     top: 0;
 }
+header nav .head{
+    display: flex;
+    width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+    justify-content: space-between;
+}
 header nav ul{
     display: flex;
     list-style: none;
