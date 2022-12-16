@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family:'Poppins', sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -201,9 +201,60 @@ header .content .content-right{
     margin-left: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-
-
-
+.menus{
+    width: 98%;
+    margin: auto;
+}
+.menus .chast{
+    display:flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    border: 1px solid;
+    margin: auto;
+}
+.menus .chast .insite{
+    position: relative;
+    border: 1px solid;
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+}
+.menus .chast .insite img{
+    width: 100%;
+    height: 60%;
+    border-radius: 24px;
+}
+.menus .chast .insite .free{
+    position: absolute;
+    top: 10px;
+    left:15px;
+    border-radius: 999px;
+    background-color:rgba(250, 224, 152, 0.8);
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    white-space: nowrap;
+    padding: 4px;
+}
+.menus .chast .insite .free span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* .menus .chast .insite .crem1{
+    background: url(pictures/menu-item-01.jpg) center center/cover;
+}
+.menus .chast .insite .crem1 .free{
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid;
+    width: 130px;
+    color: black;
+    background-color: #00acee;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+} */
 
 
 /* dias */
