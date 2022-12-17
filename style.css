@@ -208,7 +208,7 @@ header .content .content-right{
 .menus .chast{
     display:flex;
     flex-wrap: wrap;
-    width: 98%;
+    width: 95%;
     height: auto;
     border: 1px solid;
     margin: auto;
@@ -230,7 +230,7 @@ header .content .content-right{
     top: 10px;
     left:15px;
     border-radius: 999px;
-    background-color:rgba(250, 224, 152, 0.8);
+    background-color:rgba(236, 46, 46, 0.8);
     font-size: 13px;
     font-weight: bold;
     line-height: 16px;
