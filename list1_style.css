@@ -69,21 +69,24 @@ header nav i{
     margin-top: 65px;
     padding-bottom: 5%;
 }
-.images{
+.img{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
     margin-top: 5%;
+}
+.images{
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 80%;
+    border: 2px solid red;
 }
 .img_1{
     border-radius: 5px;
     width: 48%;
     height: 95%;
-}
-.img_1:hover{
-    width: 49%;
-    height: 96%;
 }
 .img_4{
     border-radius: 5px;
@@ -196,8 +199,7 @@ div div textarea{
         flex-wrap: wrap;
         background-size: 100% 100%;
     }
-    .images{
-        display: block;
+    .img{
         width: 80%;
     }
     .table{
