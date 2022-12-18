@@ -111,6 +111,11 @@ header .content .content-right{
     height: 700px;
     border: 1px solid;
 }
+
+
+
+
+/* menu */
  .content2{
     margin: 100px 30px;
     border: 1px solid;
@@ -205,7 +210,11 @@ header .content .content-right{
     width: 98%;
     margin: auto;
 }
+.menus .chast_top{
+    margin-top: 100px ;
+}
 .menus .chast{
+    padding: 0;
     display:flex;
     flex-wrap: wrap;
     width: 95%;
@@ -216,9 +225,10 @@ header .content .content-right{
 .menus .chast .insite{
     position: relative;
     border: 1px solid;
-    width: 300px;
+    width: 270px;
     height: 320px;
-    margin: 20px;
+    margin: auto;
+    padding: 5px;
 }
 .menus .chast .insite img{
     width: 100%;
@@ -240,6 +250,10 @@ header .content .content-right{
 .menus .chast .insite .free span{
     margin-left: 5px;
     margin-right: 5px;
+}
+.menus .chast .insite .discr h3{
+    font-size: 22px;
+    text-align: center;
 }
 .menus .chast .insite .discr .rate{
     letter-spacing:0em;
@@ -267,6 +281,19 @@ header .content .content-right{
     width: 100%;
     margin: auto;
     margin-top: 10px;
+}
+.menus .chast .insite  a:hover{
+   color: rgb(73, 70, 70); 
+   transition: 0.3s linear;
+}
+.menus .chast .insite  a .order:hover{
+    background-color: rgba(234, 100, 100, 0.8);
+    transition: 0.3s linear;
+}
+
+
+.chast_2{
+    margin-top: 100px;
 }
 /* .menus .chast .insite .crem1{
     background: url(pictures/menu-item-01.jpg) center center/cover;
