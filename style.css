@@ -213,18 +213,22 @@ header .content .content-right{
 .menus .chast_top{
     margin-top: 100px ;
 }
+.menus .chast_top h1{
+    font-size: 40px;
+    margin-left: 4%;
+}
 .menus .chast{
     padding: 0;
     display:flex;
     flex-wrap: wrap;
     width: 95%;
     height: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
 }
 .menus .chast .insite{
     position: relative;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 270px;
     height: 320px;
     margin: auto;
@@ -257,6 +261,7 @@ header .content .content-right{
 }
 .menus .chast .insite .discr .rate{
     letter-spacing:0em;
+    text-align: center;
 }
 .menus .chast .insite .discr i{
     color:rgb(250, 194, 32);
@@ -292,9 +297,6 @@ header .content .content-right{
 }
 
 
-.chast_2{
-    margin-top: 100px;
-}
 /* .menus .chast .insite .crem1{
     background: url(pictures/menu-item-01.jpg) center center/cover;
 }
