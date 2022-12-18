@@ -34,7 +34,6 @@ header nav{
 header nav .head{
     display: flex;
     width: 80%;
-    /* border: 1px solid; */
     margin: auto;
     justify-content: space-between;
 }
@@ -70,7 +69,6 @@ header nav i{
     padding-bottom: 5%;
 }
 .img{
-    border: 2px solid rebeccapurple;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +79,6 @@ header nav i{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 .img_1{
     border-radius: 5px;
