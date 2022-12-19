@@ -200,11 +200,7 @@ div div textarea{
 }
 .social{
     display:flex;
-    /*align-self: center;*/
-    /*justify-content: flex-end;*/
-    /*float: left;*/
 }
-
 .social__icon{
     text-decoration: none;
     display:flex;
