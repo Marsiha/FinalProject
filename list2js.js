@@ -9,11 +9,11 @@ left.addEventListener('click', ()=>{
 right.addEventListener('click', ()=>{
     cards.scrollLeft += 150;
 })
-
+var total_cost = 0;
 var photo = document.getElementById('ava');
 var title = document.getElementById('im');
 var opi = document.getElementById('opi');
-var cost = document.getElementById('cost');
+let cost = document.getElementById('cost');
 var arr = ["Medium rare steak roasting degree is an ideal roasting for classic steaks, red-pink color inside. The temperature is 46-50 °C.",
     "Soup without meat, but no less delicious than with it. A lot of vitamins, trace elements and few calories. It is very useful and can be recommended for baby food and for adults. A set of vegetables can be any to taste.",
     "Pizza Margarita is a traditional Italian pizza. The composition of this pizza is extremely simple, its main ingredients: mozzarella cheese, ripe tomatoes and fresh basil leaves.",
@@ -32,3 +32,8 @@ Array.from(document.getElementsByClassName('card')).forEach((ele,i)=>{
         cost.innerText = ele.getElementsByTagName('h4')[0].innerText;
     })
 })
+
+function addOrder(){
+    total_cost+=parseInt(cost.innerText.substring(1,cost.innerText.length));
+    console.log(total_cost);
+}
