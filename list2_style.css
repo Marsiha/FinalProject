@@ -70,6 +70,8 @@ header nav i{
 }
 
 .back{
+    transform: translateY(-150%);
+    animation: ani 1s forwards;
     color: white;
     display: flex;
     margin: 6% auto 3%;
@@ -78,6 +80,11 @@ header nav i{
     background-color: #fb5849c4;
     padding: 3%;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.6);
+}
+@keyframes ani {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
 }
 .back img{
     justify-content: center;
@@ -105,18 +112,25 @@ div div div h2{
     font-weight: 500;
     font-size: 30px;
 }
-div div div button{
+#cost{
+    background-color: rgba(255, 255, 255, 0.68);
+    padding: 0 20px;
+    border-radius: 5px;
+}
+#order{
     border-radius: 10px;
-    background-color: black;
+    background: black;
     color: white;
     width: 40%;
     height: 100%;
     transition: 0.5s;
 }
-div div div button :after{
-    background-color: red;
+#order:hover{
+    background: rgba(23, 23, 23, 0.94);
 }
 .cards{
+    transform: translateY(-150%);
+    animation: ani 1s forwards;
     position: relative;
     display: flex;
     align-items: center;
@@ -148,6 +162,10 @@ div div div button :after{
     height: 70px;
     top: -5px;
     left: -5px;
+    transition: 1.5s;
+}
+.st:hover{
+    transform: rotate(360deg);
 }
 .price{
     right: 20px;
@@ -176,6 +194,7 @@ div div div button :after{
     text-overflow: ellipsis;
 }
 .icons{
+    text-align: center;
     width: 90%;
     margin: auto;
     padding-left: 2%;
@@ -183,4 +202,10 @@ div div div button :after{
 .icons i{
     font-size: 23px;
     cursor: pointer;
+}
+.tot_cost{
+    position: absolute;
+    height: 20%;
+    width: 40%;
+    background: #121213;
 }
