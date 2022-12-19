@@ -75,7 +75,7 @@ header nav i{
     margin: 6% auto 3%;
     width: 70%;
     height: 350px;
-    background-color: #fb5849;
+    background-color: #fb5849c4;
     padding: 3%;
     border-radius: 10px;
 }
@@ -83,6 +83,7 @@ header nav i{
     justify-content: center;
     width: 40%;
     border-radius: 50%;
+    border: 2px solid #fb5849;
 }
 .nav{
     justify-content: center;
@@ -110,6 +111,10 @@ div div div button{
     color: white;
     width: 40%;
     height: 100%;
+    transition: 0.5s;
+}
+div div div button :after{
+    background-color: red;
 }
 .cards{
     position: relative;
@@ -119,7 +124,7 @@ div div div button{
     margin: auto;
     width: 90%;
     scroll-behavior: smooth;
-    transition: 1s linear;
+    transition: 2s linear;
     height: 20%;
     padding: 1% 2% ;
     overflow: auto;
@@ -133,7 +138,7 @@ div div div button{
     min-width: 140px;
     height: 100%;
     margin-right: 1%;
-    background: #282828cf;
+    background: #fb5849c4;
     border-radius: 50px 10px 10px 10px;
 }
 .st{
