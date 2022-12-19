@@ -37,8 +37,9 @@
     }
     header nav i{
         display: unset;
-        margin-top: 12px;
-        font-size: 30px;
+        margin-top: 5px;
+        margin-right: 20px;
+        font-size: 40px;
     }
     header nav .ul_active{
         top:0;
@@ -46,5 +47,15 @@
     header nav ul li{
         padding: 8px 0px;
         text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    .qw {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .social__icon {
+        width: 55px;
+        height: 55px;
     }
 }
