@@ -40,6 +40,7 @@
     </div>
     <div class="table">
         <h4>Table Reservation</h4>
+        <form action="connect.php">
         <input class="inp" type="text" name = "name" placeholder="Your name">
         <input class="inp" type="email" name = "email" placeholder="Your Email Address">
         <input  class="inp"type="text" name = "phone" placeholder="Phone Number">
@@ -65,8 +66,9 @@
                     <option>Lunch</option>
                     <option>Dinner</option>
                 </select>
-                <textarea placeholder="Message"></textarea>
+                <textarea placeholder="Message" name = "message"></textarea>
         <input type="submit" name = "submit" value="Make A Reservation">
+        </form>
         </div>
     </div>
 </div>
