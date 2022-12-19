@@ -150,6 +150,70 @@ header nav ul li a:hover{
 header nav i{
     display: none;
 }
+.marsChert{
+    background-image: url('photos/reservation-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    margin: 20px 0px;
+    width: 100%;
+}
+.containerSS{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px black;
+}
+.sony{
+    margin: 30px;
+    /*background-color: black;*/
+}
+.sony p{
+    padding-top: 50px;
+}
+
+.wrapperSS{
+    background-color: #fb5849;
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.wrapperSS img{
+    width: 580px;
+    height: 400px;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
 
 @media screen and (max-width: 400px) {
     .andrey{
@@ -184,6 +248,18 @@ header nav i{
     .info{
         text-align: center;
     }
+    .marsChert{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .wrapperSS img{
+        width: 90%;
+        /*height: 380px;*/
+    }
+    .containerSS{
+        margin: 0px;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 900px) {
     .andrey{
@@ -217,5 +293,22 @@ header nav i{
     }
     .info{
         text-align: center;
+    }
+    .marsChert{
+        display: block;
+        /*margin: 0px 50px;*/
+        padding: 10px;
+    }
+    .sony{
+        text-align: center;
+    }
+    .wrapperSS img{
+        /*width: 335px;*/
+        width: 100%;
+        height: 380px;
+    }
+    .containerSS{
+        margin: auto;
+        width: 70%;
     }
 }
