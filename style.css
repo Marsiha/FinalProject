@@ -12,10 +12,10 @@ header{
     height: auto;
     /* border: 1px solid; */
     margin: auto;
-    background-color: rgb(250, 249, 251);
+    background-color: rgb(255, 255, 255);
 }
 header nav{
-    background-color: white;
+    background-color: rgb(244, 238, 238);
     position: fixed;
     /* border: 1px solid; */
     width: 100%;
@@ -23,6 +23,7 @@ header nav{
     top: 0;
 }
 header nav .head{
+    position: relative;
     display: flex;
     width: 80%;
     border: 1px solid;
@@ -30,7 +31,9 @@ header nav .head{
     justify-content: space-between;
 }
 header nav h1{
-    margin-top: 15px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:800;
 }   
 header nav ul{
     display: flex;
@@ -39,6 +42,7 @@ header nav ul{
 }
 header nav ul li{
     padding: 3px 15px;
+    align-items: center;
 }
 header nav ul li a{
     text-decoration: none;
@@ -143,16 +147,15 @@ header .content .content-right{
     display: flex;
     border: 1px solid;
     justify-content: space-around;
+    overflow: auto;
 }
  .gallery .card{
     margin-left: 5px;
     margin-right: 5px;
     width: 250px;
-    min-height: 400px;
-    overflow: hidden;
-    background-size: cover;
+    height: 200px;
     background-repeat: no-repeat;
-    overflow: hidden;
+    background-position: center;
 }
  .gallery .photo1{
     background-image: url(pictures/menu-item-01.jpg);
@@ -356,6 +359,29 @@ header .content .content-right{
     margin: 10px;
     padding: 5px;
 } */
+
+
+
+
+/* Order */
+/* header nav .heada .logo {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 250px;
+    height: 350px;
+    background: #121213;
+    transition: 1s linear;
+}
+header nav .heada{
+    text-align: end;
+}
+header nav .heada ul{
+    text-align: end;
+} */
+
+
+
 
 
 /* dias */
