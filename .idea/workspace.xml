@@ -15,7 +15,6 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,16 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/diaskarassayev/Documents/GitHub/FinalProject/photos",
+    "list.type.of.created.stylesheet": "CSS"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photos" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="list1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FinalProject/list1.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -59,8 +63,12 @@
       <option name="presentableId" value="Default" />
       <updated>1669827262521</updated>
       <workItem from="1669827271430" duration="25950000" />
+<<<<<<< HEAD
       <workItem from="1670422652605" duration="802000" />
       <workItem from="1670483929594" duration="44616000" />
+=======
+      <workItem from="1671438930005" duration="13110000" />
+>>>>>>> 5cb553f64d672200e99a61829854dc52c89b2255
     </task>
     <servers />
   </component>
