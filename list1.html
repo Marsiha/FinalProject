@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="list1_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="head">
+            <h1>RATATOUILLE</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="">Order </a></li>
+                <li><a href="">Chefs</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Reservation</a></li>
+            </ul>
+            <i class="bi bi-three-dots"></i>
+        </div>
+    </nav>
+</header>
+<div class="reservation">
+    <div class="img">
+    <div class="images">
+        <div class="img_div1">
+            <img class="img_1" src="img/tables.jpg" alt="tables1">
+            <img class="img_2" src="img/tables4.jpg" alt="tables4">
+        </div>
+        <div class="img_div2">
+            <img class="img_3" src="img/tables2.jpg" alt="tables2">
+            <img class="img_4" src="img/tables3.jpg" alt="tables3">
+        </div>
+    </div>
+    </div>
+    <div class="table">
+        <h4>Table Reservation</h4>
+        <form action="connect.php">
+        <input class="inp" type="text" name = "name" placeholder="Your name">
+        <input class="inp" type="email" name = "email" placeholder="Your Email Address">
+        <input  class="inp"type="text" name = "phone" placeholder="Phone Number">
+        <select class="inp">
+            <option>Number Of Guests</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+             <input class="inp" type="date" name ="date" placeholder="dd/mm/yyyy">
+                <select class="inp">
+                    <option>Time</option>
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                </select>
+                <textarea placeholder="Message" name = "message"></textarea>
+        <input type="submit" name = "submit" value="Make A Reservation">
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
